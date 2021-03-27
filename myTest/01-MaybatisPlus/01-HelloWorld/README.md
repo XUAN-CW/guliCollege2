@@ -1,5 +1,7 @@
 # 环境准备
 
+## MySQL 数据库
+
  [user.sql](data\user.sql) 
 
 具体配置见  [application.properties](code\src\main\resources\application.properties) 
@@ -89,7 +91,7 @@ spring.datasource.password=root
 
 到了这一步其实就算完成了，直接运行 `DemoApplicationTests.findAll()`  即可见 user 表所有数据
 
-### mybatis 日志
+### 开启 mybatis 日志
 
  [application.properties](code\src\main\resources\application.properties) 
 
